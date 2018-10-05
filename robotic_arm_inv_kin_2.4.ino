@@ -120,21 +120,6 @@ void kinishXa(void){
   }
 }
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-void akrosweep90(){
-for(int pos = 180; pos >= 90; pos = pos -1) // goes from 0 degrees to 180 degrees 
-  {                                  // in steps of 1 degree 
-    akro.write(pos);              // tell servo to go to position in variable 'pos' 
-    delay(50);                       // waits 15ms for the servo to reach the position 
-  } 
-}
-void akrosweep180(){
-for(int pos = 90; pos <= 180; pos = pos +1) // goes from 0 degrees to 180 degrees 
-  {                                  // in steps of 1 degree 
-    akro.write(pos);              // tell servo to go to position in variable 'pos' 
-    delay(50);                       // waits 15ms for the servo to reach the position 
-  } 
-}
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Συνάρτηση του mhden~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 void mhden(){
