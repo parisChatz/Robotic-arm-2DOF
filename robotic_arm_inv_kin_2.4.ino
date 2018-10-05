@@ -50,7 +50,11 @@ void setup()
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~VOID LOOP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 void loop()
 { 
-//sthn void loop den ginete tipota
+if (Serial.available() > 0) {
+                // read the incoming byte:
+                incomingByte = Serial.read()-48;
+                translateIR();
+        }    
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
