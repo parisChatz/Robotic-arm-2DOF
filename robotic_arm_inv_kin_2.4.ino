@@ -50,23 +50,7 @@ void setup()
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~VOID LOOP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 void loop()
 { 
-  kinishYp(); //Δύο διαδοχικές κινήσεις προς τα επάνω κατα 3 cm
-  delay(500);   
-  kinishYp();
-  delay(500); 
-  kinishXd(); //Μια κίνηση δεξιά κατα 2 cm
-  delay(500);   
-  kinishYk(); //Δύο διαδοχικές κινήσεις προς τα κάτω κατα 3 cm
-  delay(500);   
-  kinishYk();
-  delay(500);
-  kinishXa();
-  delay(500);   
-  kinishYp();
-  delay(500); 
-  kinishXd();
-
-  delay(10000000000);
+//sthn void loop den ginete tipota
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
