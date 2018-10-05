@@ -1,0 +1,43 @@
+void translateIR(){ //Κάνει ένα σετ εντολών με βάση το σήμα που θα λάβει
+
+switch(incomingByte){
+  case 0:  // O αριθμός 0
+    mhden();
+    break;
+  
+  case 1:  // O αριθμός 1
+    ena();
+    break;
+ 
+  case 2:  // O αριθμός 2
+    duo();
+    break;
+  
+  case 3:  // O αριθμός 3
+    tria();
+    break;
+  
+  case 4:  // O αριθμός 4
+    tessera();
+    break;
+
+  case 5:  // O αριθμός 5
+    pente();
+    break;
+
+  case 6:  // O αριθμός 6
+    eksi();
+    break;
+
+  case 7:  // O αριθμός 7
+    efta();
+    break;
+
+  case 8:  // O αριθμός 8
+    oxtw();
+    break;
+
+  case 9:  // O αριθμός 9
+    ennia(); 
+    break;
+}
