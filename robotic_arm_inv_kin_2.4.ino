@@ -1,3 +1,5 @@
+int incomingByte;
+#include "IRremote.h"
 #include <Servo.h> 
 #define pi  3.14 //Αρχικοποίηση του π
 
