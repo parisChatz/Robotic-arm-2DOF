@@ -1,4 +1,4 @@
-# Robotic-Arm-2DOF
+# Robotic-Arm-2DOF (arduino code is in dev)
 PURPOSE
 
 The aim of the thesis is to develop, study and construct a 2 DOF robotic arm that will write numbers from 0 to 9.
